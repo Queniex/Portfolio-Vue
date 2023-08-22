@@ -19,7 +19,9 @@
                   class="w-3/5 rounded-full text-[#FCAEAE] border-2 border-[#FCAEAE] text-[25px] font-[700] hover:bg-[#FCAEAE] hover:text-black"><router-link
                     to="/about">About</router-link></button>
                 <button
-                  class="w-2/5 rounded-full bg-[#FCAEAE] text-[25px] font-[700] text-black hover:bg-black hover:text-[#F66]">Resume</button>
+                  class="w-2/5 rounded-full bg-[#FCAEAE] text-[25px] font-[700] text-black hover:bg-black hover:text-[#F66]"><a
+                    href="https://drive.google.com/file/d/1zRr7K0WNQwWUCjFOtSIviVDKz-u-S6ZF/view?usp=sharing"
+                    target="_blank">Resume</a></button>
               </div>
             </div>
           </div>
