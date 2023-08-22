@@ -21,7 +21,7 @@
                         <router-link
                             class="nav-link text-[1.7rem] font-[700] text-white hover:text-[#FCAEAE] hover:cursor-pointer"
                             to="/contact">Contact</router-link>
-                        <div class="w-[7vw] h-11 bg-[#FCAEAE]"></div>
+                        <!-- <div class="w-[7vw] h-11 bg-[#FCAEAE]"></div> -->
                     </div>
                 </div>
             </div>

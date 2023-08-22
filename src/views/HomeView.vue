@@ -11,7 +11,7 @@
             <div class="m-auto leading-normal">
               <p class="text-[20px] font-[250] text-[#FCAEAE] leading-[0.9]">Welcome to my personal website</p>
               <p class="text-[47px] font-[500] text-[#FCAEAE] leading-[1.2]">Hi, I'm <span
-                  class="text-white">Fildzah</span>.</p>
+                  class="text-white">FILDZAH</span>.</p>
               <p class="text-[30px] font-[500] text-[#FCAEAE] leading-[0.9]">System Analyst Enthusiast
               </p>
               <div class="flex gap-3 justify-around mt-5">
