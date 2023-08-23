@@ -6,25 +6,38 @@
                 <div class="h-11"></div>
                 <div class="mb-5">
                     <h1 class="font-bold text-right text-[30px] text-white">Project Portfolio</h1>
-                    <p class="text-right font-light text-[20px] text-[#FCAEAE]">An <span class="text-white">informatic
-                            engineering</span> student that is fully
-                        knowledge-curious about <span class="text-white">System Analyst</span>.</p>
-                    <p class="text-right font-light text-[20px] text-[#FCAEAE]">A person who highly enthused about
-                        work and tasks ahead. Enjoy working
-                        in a team group, understand the importance of being interactive, and getting to know others. Always
-                        committed
-                        to learning and self-development then consistently achieve better results.</p>
+                    <p class="text-right font-light text-[20px] text-[#FCAEAE]">Lorem <span class="text-white">ipsum
+                            dolor.</span> Sint suscipit fugit sit neque ea aut
+                        nobis, labore nulla commodi tempore <span class="text-white">commodi</span>.</p>
+                    <p class="text-right font-light text-[20px] text-[#FCAEAE]">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit fugit sit neque ea aut
+                        nobis, labore nulla commodi tempore?</p>
                 </div>
                 <div class="flex flex-row gap-5 mb-5">
-                    <div class="basis-2/4 h-64 rounded-3xl hover:scale-105 bg-red-200">
+                    <div class="basis-2/4 h-64 relative rounded-3xl bg-red-200 hover:shadow-glow overflow-hidden">
+                        <img src="https://i.pinimg.com/736x/be/0e/e1/be0ee121138774536f7475109c5c590d.jpg"
+                            class="object-cover transition-transform duration-300 hover:scale-105 h-2/3 w-full rounded-t-3xl filter hover:blur-sm"
+                            alt="">
+                        <div
+                            class="absolute flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-center text-white p-4 bg-black bg-opacity-50">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Nihil repellat error odit a nam animi asperiores natus,
+                                earum quam aut at ipsa omnis possimus amet modi incidunt impedit nemo!</p>
+                        </div>
                     </div>
-                    <div class="basis-2/4 h-64 rounded-3xl hover:scale-105 bg-red-200">
+
+                    <div class="basis-2/4 h-64 rounded-3xl bg-red-200 shadow-glow">
+                        <img src="https://i.pinimg.com/736x/be/0e/e1/be0ee121138774536f7475109c5c590d.jpg"
+                            class="object-cover h-2/3 w-full rounded-t-3xl" alt="">
                     </div>
-                    <div class="basis-2/4 h-64 rounded-3xl hover:scale-105 bg-red-200">
+                    <div class="basis-2/4 h-64 rounded-3xl bg-red-200 shadow-glow">
+                        <img src="https://i.pinimg.com/736x/be/0e/e1/be0ee121138774536f7475109c5c590d.jpg"
+                            class="object-cover h-2/3 w-full rounded-t-3xl" alt="">
                     </div>
                 </div>
+
                 <div class="float-right hover:text-[#FCAEAE] hover:cursor-pointer">
-                    More Project →
+                    <a href="https://github.com/Queniex?tab=repositories">More Project →</a>
                 </div>
             </div>
         </div>
@@ -46,4 +59,8 @@ export default {
 /* * {
     border: 1px red solid;
 } */
+
+.shadow-glow:hover {
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.9);
+}
 </style>

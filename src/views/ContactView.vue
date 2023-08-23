@@ -6,12 +6,12 @@
                 <div class="mt-5 h-[60vh] mb-5 flex justify-center items-center">
                     <div class="text-center">
                         <h1 class="font-bold text-[32px] text-[#FCAEAE] leading-[0.9] mb-2"><span
-                                class="text-[22px]">★‧°｡⋆</span> Let's Be Friend <span class="text-[22px]">⋆｡°‧★</span>
+                                class="text-[22px]"></span> Let's Be Friend <span class="text-[22px]"></span>
                         </h1>
                         <h3 class="font-light text-[20px] text-white leading-[1.2] mb-5">Follow Me!</h3>
-                        <div class="flex justify-center gap-4">
+                        <div class="flex justify-center gap-4 mt-5">
                             <div
-                                class="h-20 w-20 rounded-xl bg-red-300 hover:bg-red-400 transition-transform transform hover:-translate-y-2">
+                                class="h-20 w-20 rounded-xl bg-red-300 mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-down">
                                 <a href="https://www.linkedin.com/in/fildzah-marissa">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -21,7 +21,7 @@
                                 </a>
                             </div>
                             <div
-                                class="h-20 w-20 rounded-xl bg-red-300 hover:bg-red-400 transition-transform transform hover:-translate-y-2">
+                                class="h-20 w-20 rounded-xl bg-red-300 mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-up">
                                 <a href="https://github.com/Queniex">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -31,7 +31,7 @@
                                 </a>
                             </div>
                             <div
-                                class="h-20 w-20 rounded-xl bg-red-300 hover:bg-red-400 transition-transform transform hover:-translate-y-2">
+                                class="h-20 w-20 rounded-xl bg-red-300 mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-down">
                                 <a href="https://twitter.com/QuenieSalbiyah">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -41,7 +41,7 @@
                                 </a>
                             </div>
                             <div
-                                class="h-20 w-20 rounded-xl bg-red-300 hover:bg-red-400 transition-transform transform hover:-translate-y-2">
+                                class="h-20 w-20 rounded-xl bg-red-300 mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-up">
                                 <a href="https://www.instagram.com/fildzahmr/">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -103,4 +103,37 @@ export default {
 <style scoped>
 /* * {
     border: 1px red solid;
-} */</style>
+} */
+
+@keyframes float-up {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes float-down {
+
+    0%,
+    100% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+}
+
+.animate-float-up {
+    animation: float-up 2s ease-in-out infinite;
+}
+
+.animate-float-down {
+    animation: float-down 2s ease-in-out infinite;
+}
+</style>
