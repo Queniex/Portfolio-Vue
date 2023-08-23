@@ -2,13 +2,13 @@
   <div class="about">
     <Navbar />
     <div class="container mx-auto">
-      <div class="mx-20 text-white">
+      <div class="mx-20 text-white h-[80vh]">
         <div class="h-11"></div>
         <div class="mb-5">
           <h1 class="text-left font-bold text-[30px] text-white">About Me</h1>
           <p class="text-justify font-light text-[20px] text-[#FCAEAE]">An <span class="text-white">informatic
-              engineering</span> student that is fully knowledge-curious about <span class="text-white">Backend
-              Developer</span>.</p>
+              engineering</span> student that is fully knowledge-curious about <span class="text-white">System
+              Analyst</span>.</p>
           <p class="text-justify font-light text-[20px] text-[#FCAEAE]">A person who <span class="text-white">highly
               enthused</span> about work and tasks ahead. <span class="text-white">Enjoy </span>working in a team group
             and <span class="text-white">always committed</span> to learning.</p>
@@ -186,53 +186,17 @@
             </div>
           </div>
           <div class="w-full h-[16rem] flex justify-center items-center">
-            <p class="text-justify font-light text-[#FCAEAE]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum obcaecati, quo non maiores debitis nisi
-              mollitia, natus facere amet blanditiis quis delectus modi? Iste veritatis non amet quas culpa praesentium
-              quaerat neque voluptas ratione, rerum facere ab consequuntur libero dolor ipsum ipsam dolores eveniet
-              dolorem distinctio modi repellat. Sunt, eveniet ut labore deleniti, alias at qui voluptatum nihil quaerat
-              aliquid et veritatis nisi dignissimos eos molestias consectetur nobis amet deserunt expedita nesciunt facere
-              aspernatur! Eius, similique ut molestias quam nihil quaerat minus alias
+            <p class="text-justify font-ligth text-[#B8ACBA]">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A at reiciendis quo nisi, quis nobis voluptates
+              vero repellat pariatur esse quod amet doloribus omnis fuga magni. Fugit velit debitis fugiat?
             </p>
           </div>
 
         </div>
 
-        <!-- <div class="flex justify-around mt-7">
-          <div class="w-full">
-            <div class="mx-2">
-              <p class="text-justify font-light text-[#FCAEAE]">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Rerum
-                obcaecati, quo non maiores debitis nisi
-                mollitia, natus facere amet blanditiis quis delectus modi? Iste veritatis non amet quas culpa praesentium
-                quaerat neque voluptas ratione, rerum facere ab consequuntur libero dolor ipsum ipsam dolores eveniet
-                dolorem distinctio modi repellat. Sunt, eveniet ut labore deleniti, alias at qui voluptatum nihil quaerat
-                aliquid et veritatis nisi dignissimos eos molestias consectetur nobis amet deserunt expedita nesciunt
-                facere aspernatur! Eius, similique ut molestias quam nihil quaerat minus alias</p>
-            </div>
-          </div>
-          <div class="w-full mb-3">
-            <div class="text-center pt-2">
-              <h1 class="text-[30px] font-bold text-white">My Fav Tools</h1>
-            </div>
-            <div class="flex justify-center gap-5 mx-3 mb-3 mt-3">
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-            </div>
-            <div class="flex justify-center gap-5 mx-3">
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-              <div class="h-14 w-20 bg-white rounded-lg"></div>
-            </div>
-          </div>
-        </div> -->
-
-        <div class="h-10"></div>
+        <div class="h-10 mt-8">
+          <div class="h-1  bg-[#B8ACBA]"></div>
+        </div>
       </div>
     </div>
   </div>

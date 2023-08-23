@@ -14,25 +14,25 @@
                         nobis, labore nulla commodi tempore?</p>
                 </div>
                 <div class="flex flex-row gap-5 mb-5">
-                    <div class="basis-2/4 h-64 relative rounded-3xl bg-red-200 hover:shadow-glow overflow-hidden">
-                        <img src="https://i.pinimg.com/736x/be/0e/e1/be0ee121138774536f7475109c5c590d.jpg"
-                            class="object-cover transition-transform duration-300 hover:scale-105 h-2/3 w-full rounded-t-3xl filter hover:blur-sm"
+                    <div class="basis-2/4 h-64 relative rounded-3xl bg-[#B8ACBA] shadow-glow overflow-hidden">
+                        <img src="../assets/images/macaroon.png"
+                            class="object-cover transition-transform hover:grayscale-0 duration-300 h-3/4 grayscale w-full rounded-t-3xl filter"
                             alt="">
-                        <div
-                            class="absolute flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
-                            <p class="text-center text-white p-4 bg-black bg-opacity-50">Lorem ipsum dolor sit amet
+                        <!-- <div
+                            class="absolute inset-1 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                            <p class="text-center text-white p-4 bg-black bg-opacity-100">Lorem ipsum dolor sit amet
                                 consectetur adipisicing elit. Nihil repellat error odit a nam animi asperiores natus,
                                 earum quam aut at ipsa omnis possimus amet modi incidunt impedit nemo!</p>
-                        </div>
+                        </div> -->
                     </div>
 
-                    <div class="basis-2/4 h-64 rounded-3xl bg-red-200 shadow-glow">
-                        <img src="https://i.pinimg.com/736x/be/0e/e1/be0ee121138774536f7475109c5c590d.jpg"
-                            class="object-cover h-2/3 w-full rounded-t-3xl" alt="">
+                    <div class="basis-2/4 h-64 rounded-3xl bg-[#B8ACBA] shadow-glow">
+                        <img src="../assets/images/kambing.png"
+                            class="object-cover hover:grayscale-0 h-3/4 w-full grayscale rounded-t-3xl" alt="">
                     </div>
-                    <div class="basis-2/4 h-64 rounded-3xl bg-red-200 shadow-glow">
-                        <img src="https://i.pinimg.com/736x/be/0e/e1/be0ee121138774536f7475109c5c590d.jpg"
-                            class="object-cover h-2/3 w-full rounded-t-3xl" alt="">
+                    <div class="basis-2/4 h-64 rounded-3xl bg-[#B8ACBA] shadow-glow">
+                        <img src="../assets/images/culinary.png"
+                            class="object-cover hover:grayscale-0 h-3/4 w-full grayscale rounded-t-3xl" alt="">
                     </div>
                 </div>
 

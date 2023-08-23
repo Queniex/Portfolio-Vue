@@ -1,45 +1,38 @@
 <template>
   <div class="home">
     <Navbar />
-    <div class="container mx-auto h-[80vh]">
-      <div class="mx-20 text-white">
-
-        <div class="w-full bg-[#0B2447] rounded-3xl mb-2">
-          <div class="flex justify-center h-20 items-center">
-            <div class="typing-demo">
-              Welcome to my personal website!
-            </div>
-          </div>
+    <div class="mx-32 text-white flex gap-3 justify-start">
+      <div class="w-2/3 bg-[#B8ACBA] h-[80vh] flex flex-col justify-center">
+        <p class="text-[20px] font-medium text-[#576CBC] leading-[0.6]">Hi, welcome!</p>
+        <div class="flex">
+          <p class="text-[50px] self-center mr-3 font-bold text-[#041349] leading-[0.8]">I'm
+          </p>
+          <div class="typing-animate">Fildzah.</div>
         </div>
+        <p class="text-[40px] font-bold text-[#041349] leading-[0.5] mb-3">System Analyst Enthusiast</p>
+        <p class="text-[20px] font-medium text-[#041349] leading-[1.5]">Lorem ipsum dolor sit, amet consectetur
+          adipisicing elit. Culpa, et?</p>
 
-        <div class="flex justify-center items-center">
-          <div class="flex">
-            <div class="w-2/3 flex justify-center items-center">
-              <img class="" src="../assets/profilee.png" width="400px" alt="">
-            </div>
-            <div class="w-3/3 h-[55vh] my-4 flex justify-center items-center animate-float">
-              <div class="m-auto leading-normal">
-
-                <p class="text-[25px] font-[500] text-[#19376D] leading-[0.9]">Hi, I'm <span
-                    class="text-black text-[40px] font-[700]">FILDZAH</span>.</p>
-                <p class="text-[30px] font-[500] text-[#19376D] leading-[1.3]">Backend Developer Enthusiast</p>
-                <p class="text-[30px] font-[500] text-black leading-[0.9]">Lorem ipsum dolor sit, amet consectetur
-                  adipisicing elit. Culpa, et?</p>
-                <!-- <div class="flex gap-3 justify-around mt-3">
-                  <button
-                    class="w-3/5 rounded-full text-[#19376D] border-2 border-[#19376D] text-[25px] font-[700] hover:bg-[#19376D] hover:text-black"><router-link
-                      to="/about">About</router-link></button>
-                  <button
-                    class="w-2/5 rounded-full bg-[#19376D] text-[25px] font-[700] text-black hover:bg-black hover:text-[#F66]"><a
-                      href="https://drive.google.com/file/d/1zRr7K0WNQwWUCjFOtSIviVDKz-u-S6ZF/view?usp=sharing"
-                      target="_blank">Resume</a></button>
-                </div> -->
-              </div>
-            </div>
-          </div>
+        <div class="flex gap-3 justify-left mt-4">
+          <button
+            class="w-2/5 rounded-full text-[#041349] border-2 border-[#041349] text-[25px] font-[700] hover:bg-[#041349] hover:text-white"><router-link
+              to="/about">About</router-link></button>
+          <button
+            class="w-2/5 rounded-full bg-[#041349] text-[25px] font-[700] text-white hover:bg-transparent hover:text-[#041349]"><a
+              href="https://drive.google.com/file/d/1zRr7K0WNQwWUCjFOtSIviVDKz-u-S6ZF/view?usp=sharing"
+              target="_blank">Download CV</a></button>
         </div>
-
-
+      </div>
+      <div class="w-2/3 bg-[#041349] h-[60vh] self-center flex items-center justify-center">
+        <div class="w-1/3">
+          <div class="h-12 w-48 absolute bg-[#B8ACBA]"></div>
+          <img class="relative left-14 animate-float1 top-28" src="../assets/images/Star2.png" alt="">
+        </div>
+        <div class="w-2/3">
+          <img class="relative left-72 animate-float1 top-28" src="../assets/images/Star2.png">
+          <img src="../assets/images/profile-hijab.png" class="h-64" alt="">
+          <img class="absolute right-96 animate-float2 bottom-72" src="../assets/images/Star3.png">
+        </div>
       </div>
     </div>
   </div>
@@ -61,11 +54,15 @@ export default {
   border: 1px red solid;
 } */
 
-@keyframes float {
+@keyframes float2 {
 
   0%,
   100% {
     transform: translateY(0);
+  }
+
+  25% {
+    transform: translateX(3px);
   }
 
   50% {
@@ -73,19 +70,35 @@ export default {
   }
 }
 
-.animate-float {
-  animation: float 2s ease-in-out infinite;
+@keyframes float1 {
+
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+
+  50% {
+    transform: translateY(0px);
+  }
 }
 
-.typing-demo {
-  width: 28ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+.animate-float1 {
+  animation: float1 2s ease-in-out infinite;
+}
+
+.animate-float2 {
+  animation: float2 2s ease-in-out infinite;
+}
+
+.typing-animate {
+  width: 6.5ch;
+  animation: typing 2s steps(10), blink .5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  font-size: 40px;
-  font-weight: 500;
-  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
 }
 
 @keyframes typing {
@@ -98,9 +111,5 @@ export default {
   50% {
     border-color: transparent
   }
-}
-
-.home {
-  background-image: url('image.pnghttps://i.pinimg.com/564x/29/bf/d3/29bfd3320131a1e0681dd44576bd9f50.jpg');
 }
 </style>
