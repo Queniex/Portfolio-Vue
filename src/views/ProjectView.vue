@@ -15,7 +15,7 @@
                 </div>
                 <div class="flex flex-row gap-5 mb-5">
                     <div class="basis-2/4 h-64 relative rounded-3xl bg-[#B8ACBA] shadow-glow overflow-hidden">
-                        <img src="../assets/images/macaroon.png"
+                        <img src="https://i.postimg.cc/DyjnNrns/macaroon.png"
                             class="object-cover transition-transform hover:grayscale-0 duration-300 h-3/4 grayscale w-full rounded-t-3xl filter"
                             alt="">
                         <!-- <div
@@ -27,11 +27,11 @@
                     </div>
 
                     <div class="basis-2/4 h-64 rounded-3xl bg-[#B8ACBA] shadow-glow">
-                        <img src="../assets/images/kambing.png"
+                        <img src="https://i.postimg.cc/L54FCXWN/kambing-jpg.png"
                             class="object-cover hover:grayscale-0 h-3/4 w-full grayscale rounded-t-3xl" alt="">
                     </div>
                     <div class="basis-2/4 h-64 rounded-3xl bg-[#B8ACBA] shadow-glow">
-                        <img src="../assets/images/culinary.png"
+                        <img src="https://i.postimg.cc/N0W0z18b/culinary.png"
                             class="object-cover hover:grayscale-0 h-3/4 w-full grayscale rounded-t-3xl" alt="">
                     </div>
                 </div>

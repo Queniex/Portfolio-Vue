@@ -7,7 +7,7 @@
         <div class="flex">
           <p class="text-[50px] self-center mr-3 font-bold text-[#041349] leading-[0.8]">I'm
           </p>
-          <div class="typing-animate">Fildzah.</div>
+          <div class="typing-animate">Quenie.</div>
         </div>
         <p class="text-[40px] font-bold text-[#041349] leading-[0.5] mb-3">System Analyst Enthusiast</p>
         <p class="text-[20px] font-medium text-[#041349] leading-[1.5]">Lorem ipsum dolor sit, amet consectetur
@@ -24,7 +24,8 @@
         </div>
       </div>
       <div class="w-2/3 bg-[#041349] h-[60vh] self-center flex items-center justify-center">
-        <img src="../assets/images/girl.png" class="object-cover h-[45vh] animate-float2" alt="">
+        <img src="https://i.postimg.cc/v8Cvtj66/girl.png" class="object-cover h-[45vh] animate-float2" alt="">
+        <!-- img src : https://www.manypixels.co/gallery -->
       </div>
     </div>
   </div>
