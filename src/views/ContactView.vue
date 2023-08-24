@@ -5,13 +5,13 @@
             <div class="mx-20 text-white">
                 <div class="mt-5 mb-5">
                     <div class="text-center">
-                        <h1 class="font-bold text-[32px] text-[#B8ACBA] leading-[0.9] mb-2"><span
-                                class="text-[22px]"></span> Let's Be Friend <span class="text-[22px]"></span>
+                        <h1 class="font-bold text-[32px] text-white leading-[0.9] mb-2"><span class="text-[22px]"></span>
+                            Let's Be Friend <span class="text-[22px]"></span>
                         </h1>
-                        <h3 class="font-light text-[20px] text-white leading-[1.2] mb-5">Follow Me!</h3>
+                        <h3 class="font-light text-[20px] text-[#B8ACBA] leading-[1.2] mb-5">Follow Me!</h3>
                         <div class="flex justify-center gap-4 mt-5">
                             <div
-                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-down">
+                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-white transition-transform transform hover:-translate-y-2 animate-float-down">
                                 <a href="https://www.linkedin.com/in/fildzah-marissa">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -21,7 +21,7 @@
                                 </a>
                             </div>
                             <div
-                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-up">
+                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-white transition-transform transform hover:-translate-y-2 animate-float-up">
                                 <a href="https://github.com/Queniex">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -31,7 +31,7 @@
                                 </a>
                             </div>
                             <div
-                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-down">
+                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-white transition-transform transform hover:-translate-y-2 animate-float-down">
                                 <a href="https://twitter.com/QuenieSalbiyah">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -41,7 +41,7 @@
                                 </a>
                             </div>
                             <div
-                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-red-400 transition-transform transform hover:-translate-y-2 animate-float-up">
+                                class="h-20 w-20 rounded-xl bg-[#B8ACBA] mt-5 hover:bg-white transition-transform transform hover:-translate-y-2 animate-float-up">
                                 <a href="https://www.instagram.com/fildzahmr/">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path
@@ -53,7 +53,7 @@
                         </div>
                         <!-- <h1 class="mt-2 font-light text-[20px] text-white">or
                             <button @click="modalOpen = true"
-                                class="px-2 mt-5 text-black font-bold bg-[#B8ACBA] rounded-md hover:bg-red-400 focus:outline-none">
+                                class="px-2 mt-5 text-black font-bold bg-[#B8ACBA] rounded-md hover:bg-white focus:outline-none">
                                 Ask
                             </button>
                             me!
@@ -69,7 +69,7 @@
                                 <h2 class="text-lg font-semibold">Modal Title</h2>
                                 <p>This is the content of the modal.</p>
                                 <button @click="modalOpen = false"
-                                    class="mt-4 px-2 bg-[#B8ACBA] text-black rounded-md hover:bg-red-400 focus:outline-none">
+                                    class="mt-4 px-2 bg-[#B8ACBA] text-black rounded-md hover:bg-white focus:outline-none">
                                     <h1 class="text-black font-bold text-[20px]">
                                         x
                                     </h1>

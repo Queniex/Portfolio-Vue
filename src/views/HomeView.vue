@@ -24,15 +24,7 @@
         </div>
       </div>
       <div class="w-2/3 bg-[#041349] h-[60vh] self-center flex items-center justify-center">
-        <div class="w-1/3">
-          <div class="h-12 w-48 absolute bg-[#B8ACBA]"></div>
-          <img class="relative left-14 animate-float1 top-28" src="../assets/images/Star2.png" alt="">
-        </div>
-        <div class="w-2/3">
-          <img class="relative left-72 animate-float1 top-28" src="../assets/images/Star2.png">
-          <img src="../assets/images/profile-hijab.png" class="h-64" alt="">
-          <img class="absolute right-96 animate-float2 bottom-72" src="../assets/images/Star3.png">
-        </div>
+        <img src="../assets/images/girl.png" class="object-cover h-[45vh] animate-float2" alt="">
       </div>
     </div>
   </div>
@@ -61,13 +53,11 @@ export default {
     transform: translateY(0);
   }
 
-  25% {
-    transform: translateX(3px);
-  }
 
   50% {
     transform: translateY(-10px);
   }
+
 }
 
 @keyframes float1 {

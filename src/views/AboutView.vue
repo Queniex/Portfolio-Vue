@@ -13,7 +13,7 @@
               enthused</span> about work and tasks ahead. <span class="text-white">Enjoy </span>working in a team group
             and <span class="text-white">always committed</span> to learning.</p>
         </div>
-        <div class="flex gap-8 justify-around mt-5">
+        <div class="flex gap-8 justify-around mt-7">
           <div class="w-full mb-3">
             <div class="bg-white h-[16rem] rounded-3xl">
               <div class="text-left mx-8 pt-2">
@@ -194,8 +194,8 @@
 
         </div>
 
-        <div class="h-10 mt-8">
-          <div class="h-1  bg-[#B8ACBA]"></div>
+        <div class="h-10 mt-7">
+          <div class="h-1 bg-[#B8ACBA]"></div>
         </div>
       </div>
     </div>
