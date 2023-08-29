@@ -7,7 +7,7 @@
         <div class="flex">
           <p class="text-[50px] self-center mr-3 font-bold text-[#041349] leading-[0.8]">I'm
           </p>
-          <div class="typing-animate">Quenie.</div>
+          <div class="typing-animate">Fildzah.</div>
         </div>
         <p class="text-[40px] font-bold text-[#041349] leading-[0.5] mb-3">System Analyst Enthusiast</p>
         <p class="text-[20px] font-medium text-[#041349] leading-[1.5]">Lorem ipsum dolor sit, amet consectetur
