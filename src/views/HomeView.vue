@@ -9,22 +9,22 @@
           </p>
           <div class="typing-animate">Fildzah.</div>
         </div>
-        <p class="text-[40px] font-bold text-[#041349] leading-[0.5] mb-3">System Analyst Enthusiast</p>
-        <p class="text-[20px] font-medium text-[#041349] leading-[1.5]">Lorem ipsum dolor sit, amet consectetur
-          adipisicing elit. Culpa, et?</p>
+        <p class="text-[40px] font-bold text-[#041349] leading-[0.5] mb-3">Frontend Web Enthusiast</p>
+        <p class="text-[20px] font-medium text-[#041349] leading-[1.5]">Want to get to know me better? Let's get familiar!
+        </p>
 
         <div class="flex gap-3 justify-left mt-4">
-          <button
+          <!-- <button
             class="w-2/5 rounded-full text-[#041349] border-2 border-[#041349] text-[25px] font-[700] hover:bg-[#041349] hover:text-white"><router-link
-              to="/about">About</router-link></button>
+              to="/about">About</router-link></button> -->
           <button
             class="w-2/5 rounded-full bg-[#041349] text-[25px] font-[700] text-white hover:bg-transparent hover:text-[#041349]"><a
-              href="https://drive.google.com/file/d/1zRr7K0WNQwWUCjFOtSIviVDKz-u-S6ZF/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QaydqRnvtdW0En3bNK1posl-Q9XxxlEf/view?usp=sharing"
               target="_blank">Download CV</a></button>
         </div>
       </div>
       <div class="w-2/3 bg-[#041349] h-[60vh] self-center flex items-center justify-center">
-        <img src="https://i.postimg.cc/v8Cvtj66/girl.png" class="object-cover h-[45vh] animate-float2" alt="">
+        <img src="https://i.postimg.cc/Kv4mhS7s/Photo-Profile.png" class="object-cover h-[55vh]" alt="">
         <!-- img src : https://www.manypixels.co/gallery -->
       </div>
     </div>

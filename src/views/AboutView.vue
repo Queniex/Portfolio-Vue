@@ -7,8 +7,8 @@
         <div class="mb-5">
           <h1 class="text-left font-bold text-[30px] text-white">About Me</h1>
           <p class="text-justify font-light text-[20px] text-[#FCAEAE]">An <span class="text-white">informatic
-              engineering</span> student that is fully knowledge-curious about <span class="text-white">System
-              Analyst</span>.</p>
+              engineering</span> student with a deep curiosity and passion for <span class="text-white">
+              technology</span>.</p>
           <p class="text-justify font-light text-[20px] text-[#FCAEAE]">A person who <span class="text-white">highly
               enthused</span> about work and tasks ahead. <span class="text-white">Enjoy </span>working in a team group
             and <span class="text-white">always committed</span> to learning.</p>
@@ -185,13 +185,17 @@
               </div>
             </div>
           </div>
-          <div class="w-full h-[16rem] flex justify-center items-center">
-            <p class="text-justify font-ligth text-[#B8ACBA]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. A at reiciendis quo nisi, quis nobis voluptates
-              vero repellat pariatur esse quod amet doloribus omnis fuga magni. Fugit velit debitis fugiat?
+          <div class="w-full h-[16rem] flex flex-col justify-center items-left space-y-0">
+            <p class="text-justify font-light text-[#B8ACBA]">
+              I have accomplished many projects driven by my passion.
+            </p>
+            <p class="text-justify font-light text-[#B8ACBA]">
+              I believe consistent self-development will achieve better results.
+            </p>
+            <p class="text-justify font-light text-[#B8ACBA]">
+              Check out my work on the <strong class="text-[#FCAEAE]">project</strong> page.
             </p>
           </div>
-
         </div>
 
         <div class="h-10 mt-7">
