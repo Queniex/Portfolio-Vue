@@ -24,8 +24,8 @@
         </div>
       </div>
       <div class="w-2/3 bg-[#041349] h-[60vh] self-center flex items-center justify-center">
-        <img src="https://i.postimg.cc/Kv4mhS7s/Photo-Profile.png" class="object-cover h-[55vh]" alt="">
-        <!-- img src : https://www.manypixels.co/gallery -->
+        <!-- <img src="https://i.postimg.cc/Kv4mhS7s/Photo-Profile.png" class="object-cover h-[55vh]" alt=""> -->
+        <img :src="require('@/assets/images/Photo-Profile.png')" class="object-cover h-[55vh]" alt="Kambing Image" />
       </div>
     </div>
   </div>

@@ -14,7 +14,7 @@
                 </div>
                 <div class="flex flex-row gap-5 mb-5">
                     <div class="basis-2/4 h-64 relative rounded-3xl bg-[#B8ACBA] shadow-glow overflow-hidden">
-                        <img src="https://i.postimg.cc/hj9fxFZ0/image.png"
+                        <img :src="require('@/assets/images/qs-movies.png')"
                             class="object-cover transition-transform hover:grayscale-0 duration-300 h-3/4 grayscale w-full rounded-t-3xl filter"
                             alt="">
                         <div class="px-4 py-2 text-black">
@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="basis-2/4 h-64 relative rounded-3xl bg-[#B8ACBA] shadow-glow overflow-hidden">
-                        <img src="https://i.postimg.cc/L54FCXWN/kambing-jpg.png"
+                        <img :src="require('@/assets/images/kambing.png')"
                             class="object-cover hover:grayscale-0 h-3/4 w-full grayscale rounded-t-3xl" alt="">
                         <div class="px-4 py-2 text-black">
                             <p>Source: <a class="hover:text-[#041349]"
@@ -37,7 +37,7 @@
                     </div>
 
                     <div class="basis-2/4 h-64 relative rounded-3xl bg-[#B8ACBA] shadow-glow overflow-hidden">
-                        <img src="https://i.postimg.cc/8CcRhCLm/bhavana.png"
+                        <img :src="require('@/assets/images/bhavana.png')"
                             class="object-cover hover:grayscale-0 h-3/4 w-full grayscale rounded-t-3xl" alt="">
                         <div class="px-4 py-2 text-black">
                             <p>Source: <a class="hover:text-[#041349]"
